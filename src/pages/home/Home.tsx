@@ -21,6 +21,6 @@ function Home() {
                 </figure>
             </section>
         </main>
-    )
+    );
 }
-export default Home
+export default Home;
