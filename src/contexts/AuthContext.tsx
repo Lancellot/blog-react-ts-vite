@@ -4,8 +4,8 @@ import { login } from "../services/Service";
 
 interface AuthContextProps {
     usuario: UsuarioLogin;
-    handlelogout(): void;
-    handlelogin(usuario: UsuarioLogin) : Promise<void>;
+    handleLogout(): void;
+    handleLogin(usuario: UsuarioLogin) : Promise<void>;
     isLoading: boolean;
     isAuthenticated: boolean;
 }
@@ -57,7 +57,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     const isAuthenticated = usuario.token !== "";
 
     return (
-        <AuthContext.Provider value={{ usuario, handlelogout: handleLogout, handlelogin: handleLogin, isAuthenticated, isLoading }}>
+        <AuthContext.Provider value={{ usuario, handleLogout, handleLogin, isAuthenticated, isLoading }}>
             {children}
         </AuthContext.Provider>
     )
