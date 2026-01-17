@@ -88,7 +88,7 @@ function Login() {
           </p>
         </form>
 
-        <aside className="bg-[url('https://i.imgur.com/ZZFAmzo.jpg')] lg:block hidden bg-no-repeat 
+        <aside className="bg-[url('https://static.vecteezy.com/system/resources/previews/001/072/376/non_2x/network-connections-on-white-background-vector.jpg')] lg:block hidden bg-no-repeat 
                     w-full min-h-[80vh] bg-cover bg-center">
 
         </aside>

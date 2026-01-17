@@ -38,6 +38,8 @@ function Navbar() {
                     {isAuthenticated && (
                         <li><Link to="/" onClick={logout} className="hover:underline">Sair</Link></li>
                     )}
+                    <li></li>
+                    <li></li>
                 </ul>
             </section>
         </nav>

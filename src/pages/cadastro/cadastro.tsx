@@ -68,7 +68,7 @@ function Cadastro() {
             <div className="grid grid-cols-1 lg:grid-cols-2  
             place-items-center font-bold ">
                 <aside
-                    className="bg-[url('https://i.imgur.com/ZZFAmzo.jpg')] lg:block hidden bg-no-repeat 
+                    className="bg-[url('https://static.vecteezy.com/system/resources/previews/001/072/376/non_2x/network-connections-on-white-background-vector.jpg')] lg:block hidden bg-no-repeat 
                     w-full min-h-[80vh] bg-cover bg-center"
                     role="img"
                     aria-label="Imagem decorativa de fundo"
