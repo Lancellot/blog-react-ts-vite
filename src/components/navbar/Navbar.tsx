@@ -30,7 +30,7 @@ function Navbar() {
                     <li><Link to='/temas' className='hover:underline'>Temas</Link></li>
                     )}
                     {isAuthenticated && (
-                    <li>Cadastrar Tema</li>
+                    <li><Link to='/cadastrartema' className='hover:underline'>Cadastrar tema</Link></li>
                     )}
                     {isAuthenticated && (
                     <li>Perfil</li>
