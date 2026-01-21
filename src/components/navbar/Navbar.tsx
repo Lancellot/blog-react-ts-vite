@@ -24,7 +24,7 @@ function Navbar() {
 
                 <ul className="flex gap-4">
                     {isAuthenticated && (
-                    <li>Postagem</li>
+                    <li><Link to='/postagens' className='hover:underline'>Postagens</Link></li>
                     )}
                     {isAuthenticated && (
                     <li><Link to='/temas' className='hover:underline'>Temas</Link></li>
