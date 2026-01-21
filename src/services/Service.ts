@@ -19,14 +19,14 @@ export const buscar = async (url: string, setDados: Function, header: object) =>
     setDados(resposta.data);
 }
 
-export const cadastrar = async (url: string, dados:object, header:object) => {
+export const cadastrar = async (url: string, dados:object, setDados: Function, header:object) => {
     const resposta = await api.post(url, dados, header);
-    return (resposta.data);
+    setDados(resposta.data);
 }
 
-export const atualizar = async (url:string, dados:object, header:object) => {
+export const atualizar = async (url:string, dados:object, setDados: Function, header:object) => {
     const resposta = await api.put(url, dados, header);
-    return (resposta.data);
+    setDados(resposta.data);
 }
 
 export const deletar = async (url:string, header:object) => {

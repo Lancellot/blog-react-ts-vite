@@ -17,7 +17,7 @@ function DeletarPostagem() {
     const { usuario, handleLogout } = useContext(AuthContext)
     const token = usuario.token
 
-        async function buscarPorId(id: string) {
+    async function buscarPorId(id: string) {
         try {
             await buscar(`/postagens/${id}`, setPostagem, {
                 headers: {
@@ -59,7 +59,7 @@ function DeletarPostagem() {
         } catch (error: any) {
             if (error.toString().includes('401')) {
                 handleLogout()
-            }else {
+            } else {
                 alert('Erro ao deletar a postagem.')
             }
         }
@@ -89,19 +89,20 @@ function DeletarPostagem() {
 
                 <footer className="flex gap-2">
                     <button className=" text-slate-100 w-full py-2 rounded bg-gray-400 hover:bg-gray-700 "
-                    onClick={retornar}
+                        onClick={retornar}
                     >
                         Cancelar
                     </button>
-                    <button className="text-slate-100 w-full py-2 rounded bg-red-400 hover:bg-red-700 flex items-center justify-center"
-                    onClick={deletarPostagem}
+                    <button
+                        className="text-slate-100 w-full py-2 rounded bg-red-400 hover:bg-red-700 flex items-center justify-center"
+                        onClick={deletarPostagem}
                     >
-                        {isLoading ? 
-                        <ClipLoader
-                            color="#ffffff"
-                            size={24}
-                        />:
-                        <span>Deletar</span>
+                        {isLoading ?
+                            <ClipLoader
+                                color="#ffffff"
+                                size={24}
+                            /> :
+                            <span>Deletar</span>
                         }
                     </button>
                 </footer>

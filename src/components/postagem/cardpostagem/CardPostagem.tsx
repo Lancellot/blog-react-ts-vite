@@ -42,7 +42,7 @@ function CardPostagem({ postagem }: CardPostagemProps) {
 
             <footer className="flex">
                 <Link
-                    to=""
+                    to={`/editarpostagem/${postagem.id}`}
                     className="w-full text-white bg-indigo-400 hover:bg-indigo-800 
                             flex items-center justify-center py-2"
                 >
@@ -50,7 +50,7 @@ function CardPostagem({ postagem }: CardPostagemProps) {
                 </Link>
 
                 <Link
-                    to=""
+                    to={`/deletarpostagem/${postagem.id}`}
                     className="w-full text-white bg-red-400 hover:bg-red-700 
                             flex items-center justify-center py-2"
                 >
