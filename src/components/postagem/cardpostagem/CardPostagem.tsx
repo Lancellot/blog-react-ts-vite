@@ -1,38 +1,42 @@
 import { Link } from 'react-router-dom'
+import type Postagem from '../../../models/Postagem';
 
-function CardPostagem() {
+interface CardPostagemProps {
+    postagem: Postagem
+}
+
+function CardPostagem({ postagem }: CardPostagemProps) {
     return (
         <article className="border border-slate-900 flex flex-col rounded overflow-hidden justify-between">
             
             <header className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
                 <img
-                    src="https://i.imgur.com/pK6vSCy.png"
-                    alt="Foto de perfil do usuário"
+                    src={postagem.usuario?.foto}
+                    alt={`Foto de perfil de ${postagem.usuario?.nome}`}
                     className="h-12 rounded-full"
                 />
                 <h3 className="text-lg font-bold uppercase">
-                    Nome do Usuário
+                    {postagem.usuario?.nome}
                 </h3>
             </header>
 
-            <section className="p-4 space-y-2">
+            <section className="p-4">
                 <h4 className="text-lg font-semibold uppercase">
-                    Título
+                    {postagem.titulo}
                 </h4>
 
                 <p>
-                    Texto da postagem
+                    {postagem.texto}
                 </p>
 
                 <p>
-                    <strong>Tema:</strong> Tema X
+                    Tema: {postagem.tema?.descricao}
                 </p>
 
-                <p>
-                    <strong>Data:</strong>{' '}
-                    <time dateTime="2026-01-21">
-                        21/01/2026
-                    </time>
+                <p>Data: {new Intl.DateTimeFormat("pt-BR", {
+                        dateStyle: 'full',
+                        timeStyle: 'medium',
+                    }).format(new Date(postagem.data))}
                 </p>
             </section>
 
