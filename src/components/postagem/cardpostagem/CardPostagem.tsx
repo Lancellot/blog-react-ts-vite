@@ -44,7 +44,7 @@ function CardPostagem({ postagem }: CardPostagemProps) {
                 <Link
                     to=""
                     className="w-full text-white bg-indigo-400 hover:bg-indigo-800 
-                               flex items-center justify-center py-2"
+                            flex items-center justify-center py-2"
                 >
                     Editar
                 </Link>
@@ -52,7 +52,7 @@ function CardPostagem({ postagem }: CardPostagemProps) {
                 <Link
                     to=""
                     className="w-full text-white bg-red-400 hover:bg-red-700 
-                               flex items-center justify-center py-2"
+                            flex items-center justify-center py-2"
                 >
                     Deletar
                 </Link>
