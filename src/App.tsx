@@ -13,8 +13,9 @@ import ListaPostagens from './components/postagem/listapostagens/ListaPostagens'
 import FormPostagem from './components/postagem/formpostagem/FormPostagem'
 import DeletarPostagem from './components/postagem/deletarpostagem/DeletarPostagem'
 import Perfil from './pages/perfil/Perfil'
+import { ToastContainer } from 'react-toastify'
+
 import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer } from 'react-toastify/unstyled'
 
 function App() {
 

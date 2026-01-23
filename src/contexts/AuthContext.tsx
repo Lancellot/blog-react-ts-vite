@@ -35,9 +35,9 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
         try {
             await login(`/usuarios/logar`, usuarioLogin, setUsuario);
-            ToastAlerta('Usuário logado com sucesso', 'sucesso');
+            ToastAlerta("Usuário foi autenticado com sucesso!", "sucesso");
         } catch (error) {
-            ToastAlerta('Dados inválidos. Por favor, tente novamente.', 'erro');
+            ToastAlerta("Os dados do Usuário estão inconsistentes!", "erro");
         } 
 
         setIsLoading(false);
