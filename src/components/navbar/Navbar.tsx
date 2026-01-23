@@ -33,7 +33,7 @@ function Navbar() {
                     <li><Link to='/cadastrartema' className='hover:underline'>Cadastrar tema</Link></li>
                     )}
                     {isAuthenticated && (
-                    <li>Perfil</li>
+                    <li><Link to='/perfil' className='hover:underline'>Perfil</Link></li>
                     )}
                     {isAuthenticated && (
                         <li><Link to="/" onClick={logout} className="hover:underline">Sair</Link></li>
