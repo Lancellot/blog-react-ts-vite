@@ -63,7 +63,7 @@ function FormTema() {
 
         if (id !== undefined) {
             try {
-                await atualizar(`/temas`, tema, {
+                await atualizar(`/temas`, tema, setTema, {
                     headers: {
                         'Authorization': token
                     }
@@ -77,7 +77,7 @@ function FormTema() {
             }
         } else {
             try {
-                await cadastrar(`/temas`, tema, {
+                await cadastrar(`/temas`, tema, setTema, {
                     headers: {
                         'Authorization': token
                     }
