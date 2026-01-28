@@ -75,7 +75,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 1. **Clone o repositório**blog-pessoal.git
 cd blog-pessoal
-git clone https://github.com/seu-usuario/farmavida.git
+git clone https://github.com/lancellot/farmavida.git
 cd farmavida
 ```
 
@@ -217,9 +217,9 @@ SOFTWARE.
 
 **Assis P. Neto**
 
-- LinkedIn: [Adicione seu LinkedIn aqui]
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- E-mail: seu.email@exemplo.com
+- LinkedIn: [Assis Pires Neto](https://www.linkedin.com/in/assispiresneto/)
+- GitHub: [@seu-usuario](https://github.com/lancellot)
+- E-mail: assis.pires.netors@gmail.com
 
 ---
 
