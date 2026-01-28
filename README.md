@@ -218,7 +218,7 @@ SOFTWARE.
 **Assis P. Neto**
 
 - LinkedIn: [Assis Pires Neto](https://www.linkedin.com/in/assispiresneto/)
-- GitHub: [@seu-usuario](https://github.com/lancellot)
+- GitHub: [@Assis](https://github.com/lancellot)
 - E-mail: assis.pires.netors@gmail.com
 
 ---
