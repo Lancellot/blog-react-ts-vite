@@ -1,215 +1,169 @@
 <div align="center">
-  
-# ✍️ Blog Pessoal
 
-### Plataforma completa para compartilhar ideias, conhecimento e experiências através de postagens organizadas por temas
+<img src="https://img.shields.io/badge/Blog-Pessoal-6366f1?style=for-the-badge&logoColor=white" alt="Blog Pessoal" height="40"/>
 
-[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.18-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Blog Pessoal
+
+**Plataforma moderna para criação e gerenciamento de conteúdo pessoal**
+
+[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.18-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![NestJS](https://img.shields.io/badge/NestJS-Backend-E0234E?style=flat-square&logo=nestjs&logoColor=white)](https://nestjs.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
+[Sobre](#-sobre-o-projeto) · [Funcionalidades](#-funcionalidades) · [Tecnologias](#-tecnologias) · [Instalação](#-instalação) · [Uso](#-uso) · [Contribuindo](#-contribuindo) · [Autor](#-autor)
 
 </div>
 
 ---
 
-## 📋 Sobre o Projeto
+## 📌 Sobre o Projeto
 
-**Blog Pessoal** é uma aplicação web moderna e completa para criação e gerenciamento de um blog. A plataforma permite que usuários compartilhem suas ideias e conhecimentos através de postagens organizadas por temas, com um sistema robusto de autenticação e gerenciamento de conteúdo.
+**Blog Pessoal** é uma aplicação web full-stack moderna voltada para criação e gerenciamento de conteúdo. A plataforma oferece um sistema completo de autenticação JWT, organização de postagens por temas e uma interface responsiva e intuitiva.
 
-O projeto foi desenvolvido como parte do programa Generation Brasil, aplicando as melhores práticas de desenvolvimento web moderno com React, TypeScript e design responsivo.
+Desenvolvido como projeto de conclusão do programa [Generation Brasil](https://brazil.generation.org/), o projeto aplica práticas modernas de desenvolvimento web com React, TypeScript e design responsivo com Tailwind CSS.
 
----
-
-## 🚀 Tecnologias Utilizadas
-
-### **Frontend**
-- **[React](https://reactjs.org/)** - Biblioteca JavaScript para construção de interfaces
-- **[TypeScript](https://www.typescriptlang.org/)** - Superset JavaScript com tipagem estática
-- **[Vite](https://vitejs.dev/)** - Build tool rápida e moderna
-- **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utility-first
-- **[React Router DOM](https://reactrouter.com/)** - Roteamento para aplicações React
-- **[Axios](https://axios-http.com/)** - Cliente HTTP para requisições
-- **[React Toastify](https://fkhadra.github.io/react-toastify/)** - Notificações toast elegantes
-- **[Phosphor Icons](https://phosphoricons.com/)** - Biblioteca de ícones moderna
-
-### **Backend** (API)
-- **[Node.js](https://nodejs.org/)** - Ambiente de execução JavaScript
-- **[NestJS](https://nestjs.com/)** - Framework Node.js progressivo
-- **[TypeORM](https://typeorm.io/)** - ORM para TypeScript e JavaScript
-- **[PostgreSQL](https://www.postgresql.org/)** - Banco de dados relacional
-
-### **Ferramentas de Desenvolvimento**
-- **ESLint** - Linter para identificar problemas no código
-- **TypeScript ESLint** - Regras ESLint para TypeScript
+> **Stack:** React + TypeScript (frontend) · NestJS + PostgreSQL (backend)
 
 ---
 
-## ✨ Funcionalidades Principais
+## ✨ Funcionalidades
 
-- ✅ **Sistema de Autenticação Completo** - Login e cadastro de usuários com gerenciamento de sessão JWT
-- ✅ **Gerenciamento de Postagens** - Criação, edição, visualização e exclusão de posts
-- ✅ **Organização por Temas** - Categorize postagens por temas personalizados
-- ✅ **Listagem Dinâmica** - Visualize todas as postagens e temas em cards elegantes
-- ✅ **Modal de Criação** - Interface intuitiva para criar novas postagens
-- ✅ **Perfil de Usuário** - Página personalizada exibindo suas postagens
-- ✅ **Interface Responsiva** - Experiência otimizada para desktop, tablet e mobile
-- ✅ **Notificações Toast** - Feedback instantâneo de ações do usuário
-- ✅ **Design Moderno** - Interface clean com Tailwind CSS e ícones Phosphor
-- ✅ **Navegação Intuitiva** - Navbar e Footer para fácil acesso às funcionalidades
+| Recurso | Descrição |
+|---|---|
+| 🔐 Autenticação | Login, cadastro e gerenciamento de sessão com JWT |
+| 📝 Postagens | Criação, edição, visualização e exclusão de posts |
+| 🏷️ Temas | Categorize postagens por temas personalizados |
+| 👤 Perfil | Página do usuário com suas postagens |
+| 📱 Responsivo | Layout otimizado para desktop, tablet e mobile |
+| 🔔 Notificações | Feedback de ações via toast notifications |
 
 ---
 
-## 📦 Instalação e Execução
+## 🛠 Tecnologias
 
-### **Pré-requisitos**
+### Frontend
 
-Antes de começar, certifique-se de ter instalado em sua máquina:
+| Tecnologia | Versão | Função |
+|---|---|---|
+| [React](https://reactjs.org/) | 19.2.0 | Biblioteca de UI |
+| [TypeScript](https://www.typescriptlang.org/) | 5.9.3 | Tipagem estática |
+| [Vite](https://vitejs.dev/) | 7.2.4 | Bundler e dev server |
+| [Tailwind CSS](https://tailwindcss.com/) | 4.1.18 | Estilização utility-first |
+| [React Router DOM](https://reactrouter.com/) | — | Roteamento SPA |
+| [Axios](https://axios-http.com/) | — | Requisições HTTP |
+| [React Toastify](https://fkhadra.github.io/react-toastify/) | — | Notificações toast |
+| [Phosphor Icons](https://phosphoricons.com/) | — | Biblioteca de ícones |
 
-- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+### Backend
+
+| Tecnologia | Função |
+|---|---|
+| [NestJS](https://nestjs.com/) | Framework Node.js progressivo |
+| [TypeORM](https://typeorm.io/) | ORM para TypeScript |
+| [PostgreSQL](https://www.postgresql.org/) | Banco de dados relacional |
+
+---
+
+## 🚀 Instalação
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) >= 18
 - [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/)
+- Backend da aplicação em execução (ver [API](#backend))
 
-### **Passo a Passo**
+### Passo a passo
 
-1. **Clone o repositório**blog-pessoal.git
-cd blog-pessoal
-git clone https://github.com/lancellot/farmavida.git
-cd farmavida
-```
-
-2. **Instale as dependências**
 ```bash
+# 1. Clone o repositório
+git clone https://github.com/lancellot/blog-pessoal.git
+cd blog-pessoal
+
+# 2. Instale as dependências
 npm install
-# ou
-yarn install
+
+# 3. Configure as variáveis de ambiente
+cp .env.example .env
 ```
 
-3. **Configure as variáveis de ambiente**
+Edite o arquivo `.env` com suas configurações:
 
-Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 ```env
 VITE_API_URL=http://localhost:4000/api
 ```
 
-4. **Inicie o servidor de desenvolvimento**
 ```bash
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-# ou
-yarn dev
 ```
 
-5. **Acesse a aplicação**
+Acesse: **http://localhost:5173**
 
-Abra seu navegador e acesse: `http://localhost:5173`
-
-### **Build para Produção**
-
-Para gerar uma versão otimizada para produção:
+### Scripts disponíveis
 
 ```bash
-npm run build
-# ou
-yarn build
+npm run dev       # Servidor de desenvolvimento com HMR
+npm run build     # Build otimizado para produção
+npm run preview   # Pré-visualização do build de produção
+npm run lint      # Análise estática com ESLint
 ```
 
-Para visualizar a build de produção localmente:
+---
+
+## 🎯 Uso
+
+### Fluxo básico
+
+1. **Cadastre-se** — Crie sua conta com nome, e-mail e senha
+2. **Faça login** — Acesse o sistema com suas credenciais
+3. **Crie temas** — Organize suas postagens com categorias personalizadas
+4. **Publique posts** — Escreva e associe postagens aos temas criados
+5. **Gerencie conteúdo** — Edite ou remova posts e temas a qualquer momento
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Siga os passos abaixo:
 
 ```bash
-npm run preview
-# ou
-yarn preview
+# 1. Faça um fork do projeto e clone localmente
+git clone https://github.com/seu-usuario/blog-pessoal.git
+
+# 2. Crie uma branch para sua feature ou correção
+git checkout -b feature/minha-feature
+
+# 3. Faça commit das suas alterações
+git commit -m "feat: adiciona minha feature"
+
+# 4. Envie para o repositório remoto
+git push origin feature/minha-feature
+
+# 5. Abra um Pull Request
 ```
 
----
+### Convenção de commits
 
-## 🎯 Exemplo de Uso
+Este projeto adota [Conventional Commits](https://www.conventionalcommits.org/):
 
-### **1. Cadastro de Usuário**
-- Acesse a página de cadastro
-- Preencha os dados solicitados (nome, e-mail, senha)
-- Confirme o cadastro
-
-### **2. Login no Sistema**
-- Insira suas credenciais na página de login
-- Acesse o dashboard principal
-
-### **3. Gerenciamento de Temas**
-- Navegue até a seção de temas
-- Crie novos temas para organizar suas postagens
-- Visualize, edite ou remova temas existentes
-
-### **4. Criar e Gerenciar Postagens**
-- Clique em "Nova Postagem" para criar um post
-- Selecione um tema para associar à postagem
-- Edite ou exclua suas postagens através dos cards
-- Visualize todas as postagens na página inicial
-
----
-
-## 🤝 Como Contribuir
-
-Contribuições são sempre bem-vindas! Para contribuir com o projeto:
-
-1. **Fork o projeto**
-2. **Crie uma branch para sua feature**
-   ```bash
-   git checkout -b feature/MinhaNovaFeature
-   ```
-3. **Commit suas mudanças**
-   ```bash
-   git commit -m 'Adiciona nova feature X'
-   ```
-4. **Push para a branch**
-   ```bash
-   git push origin feature/MinhaNovaFeature
-   ```
-5. **Abra um Pull Request**
-
-### **Diretrizes de Contribuição**
-
-- Siga os padrões de código estabelecidos no projeto
-- Escreva mensagens de commit claras e descritivas
-- Teste suas alterações antes de submeter o PR
-- Atualize a documentação se necessário
-- Respeite o código de conduta do projeto
-
----
-
-## 📸 Screenshots
-
-> **Nota:** Screenshots serão adicionados em breve. Enquanto isso, você pode visualizar o projeto rodando localmente seguindo as instruções de instalação acima.
+| Prefixo | Uso |
+|---|---|
+| `feat:` | Nova funcionalidade |
+| `fix:` | Correção de bug |
+| `docs:` | Documentação |
+| `style:` | Formatação de código |
+| `refactor:` | Refatoração sem mudança funcional |
+| `test:` | Testes |
 
 ---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-```
-MIT License
-
-Copyright (c) 2026 Assis P. Neto
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 ---
 
@@ -217,24 +171,16 @@ SOFTWARE.
 
 **Assis P. Neto**
 
-- LinkedIn: [Assis Pires Neto](https://www.linkedin.com/in/assispiresneto/)
-- GitHub: [@Assis](https://github.com/lancellot)
-- E-mail: assis.pires.netors@gmail.com
-
----
-
-## 🙏 Agradecimentos
-
-- [Generation Brasil](https://brazil.generation.org/) - Pelo programa de formação
-- Comunidade React - Pelas bibliotecas e ferramentas incríveis
-- Todos os contribuidores que ajudaram no desenvolvimento do projeto
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-assispiresneto-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/assispiresneto/)
+[![GitHub](https://img.shields.io/badge/GitHub-lancellot-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lancellot)
+[![Email](https://img.shields.io/badge/Email-contato-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:assis.pires.netors@gmail.com)
 
 ---
 
 <div align="center">
-  
-Desenvolvido com ❤️ por Assis P. Neto
 
-⭐ Deixe uma estrela se este projeto te ajudou!
+Desenvolvido com ❤️ durante o programa **Generation Brasil**
+
+⭐ Se este projeto foi útil, considere deixar uma estrela!
 
 </div>
